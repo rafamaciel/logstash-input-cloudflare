@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
 
   # Gem dependencies
   s.add_runtime_dependency 'logstash-core', '>= 2.0.0', '< 3.0.0'
-  s.add_runtime_dependency 'logstash-codec-json', '>= 2.0.0', '< 3.0.0'
+  s.add_runtime_dependency 'logstash-codec-json', '>= 2.0.0', '< 3.0.5'
   s.add_development_dependency 'logstash-devutils', '>= 0.0.16', '< 0.1.0'
   s.add_development_dependency 'webmock', '>= 1.24.2', '< 1.25.0'
   s.add_development_dependency 'rubocop', '>= 0.36.0', '< 0.40.0'
